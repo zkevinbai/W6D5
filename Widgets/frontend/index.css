@@ -1,0 +1,89 @@
+.header{
+    background: lightseagreen;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 72px;
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+}
+
+/* CLOCK CSS */
+.clock {
+    background: lightcoral;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 72px;
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+}
+
+.clock-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.time-span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-span{
+    display: flex;
+    justify-content: space-between;
+}
+/* TABS CSS */
+.tabs-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tabs{
+    background: lightsalmon;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+}
+
+.tabs h1 {
+    font-size: 72px;
+}
+
+.tabs-title {
+    list-style-type: none;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: 2px solid black;
+    padding: 5px 15px;
+}
+
+.tabs-title:hover {
+    background-color: black;
+}
+
+.tabs-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tab-content {
+    margin: auto;
+}
+
+.tabs-index {
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+/* Weather CSS */
